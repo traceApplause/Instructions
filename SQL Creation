@@ -1,0 +1,26 @@
+CREATE TABLE `bug` (
+  `bugId` int NOT NULL,
+  `deviceId` int DEFAULT NULL,
+  `testerId` int DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `device` (
+  `deviceId` int NOT NULL,
+  `description` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`deviceId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `tester` (
+  `testerId` int NOT NULL,
+  `firstName` varchar(45) DEFAULT NULL,
+  `lastName` varchar(45) DEFAULT NULL,
+  `country` varchar(45) DEFAULT NULL,
+  `lastLogin` datetime DEFAULT NULL,
+  PRIMARY KEY (`testerId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `tester_device` (
+  `testerId` int NOT NULL,
+  `deviceId` int NOT NULL,
+  PRIMARY KEY (`testerId`,`deviceId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
