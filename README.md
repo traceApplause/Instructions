@@ -2,7 +2,7 @@
 
 Clone both projects. Gradle is used for the spring boot project if relevant. change application.properties in java project for datasource config if neccessary.
 
-For data input on client, enter data into text boxes as comma delimited with no spaces
+For data input on client, enter data into text boxes as comma delimited with no spaces.
 example: US,GB not US, GB
 spaces are valid inside of device name ie: 
 iPhone 4,Nexus 4 is valid
@@ -26,6 +26,6 @@ ESCAPED BY '\\'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-in a SQL Commander tab, replacing fileName and tableName for all 4 csv files(devices, bugs, testers, tester_device)
-should populate data into all 4 tables
+in a SQL Commander tab, replacing fileName and tableName for all 4 csv files(devices, bugs, testers, tester_device).
+should populate data into all 4 tables.
 CSV files are in CSVFiles repository
