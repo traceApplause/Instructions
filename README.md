@@ -13,17 +13,18 @@ for database construction:
 create database named 'applause_exercise'
 copy content of Instructions/SQL Creation into SQL Commander tab, execute for creation of tables
 
+If using mySQL Server:
 place csv files into 'C:/pathTo/MySQL Server 8.0/Uploads/place_here.csv'
 
-run query:
+run query
 
-LOAD DATA INFILE 'C:/pathTo/MySQL Server 8.0/Uploads/testers.csv'
-INTO TABLE tester
+LOAD DATA INFILE 'C:/pathTo/MySQL Server 8.0/Uploads/fileName.csv'
+INTO TABLE tableName
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 ESCAPED BY '\\'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-in SQL Commander tab, replacing file name and table name for all 4 csv files(devices, bugs, testers, tester_device)
+in a SQL Commander tab, replacing file name and table name for all 4 csv files(devices, bugs, testers, tester_device)
 should populate data into all 4 tables
