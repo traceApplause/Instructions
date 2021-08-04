@@ -28,3 +28,4 @@ IGNORE 1 ROWS;
 
 in a SQL Commander tab, replacing fileName and tableName for all 4 csv files(devices, bugs, testers, tester_device)
 should populate data into all 4 tables
+CSV files are in CSVFiles repository
