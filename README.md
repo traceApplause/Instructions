@@ -1,6 +1,6 @@
 # Instructions
 
-Pull both projects. Maven is used for the spring boot project if relevant. change application.properties in java project for datasource config if neccessary.
+Pull both projects. Gradle is used for the spring boot project if relevant. change application.properties in java project for datasource config if neccessary.
 
 For data input on client, enter data into text boxes as comma delimited with no spaces
 example: US,GB not US, GB
