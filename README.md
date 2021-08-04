@@ -9,6 +9,7 @@ iPhone 4,Nexus 4 is valid
 iPhone 4, Nexus 4 is not 
 
 
+for database construction:
 create database named 'applause_exercise'
 copy content of Instructions/SQL Creation into SQL Commander tab, execute for creation of tables
 
