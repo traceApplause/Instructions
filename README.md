@@ -16,7 +16,7 @@ copy content of Instructions/SQL Creation into SQL Commander tab, execute for cr
 If using mySQL Server:
 place csv files into 'C:/pathTo/MySQL Server 8.0/Uploads/place_here.csv'
 
-run query
+after tables are created, run below query
 
 LOAD DATA INFILE 'C:/pathTo/MySQL Server 8.0/Uploads/fileName.csv'
 INTO TABLE tableName
